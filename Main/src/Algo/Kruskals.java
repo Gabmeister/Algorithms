@@ -3,6 +3,8 @@ import java.util.*;
 
 /*
 ALGORITHM DESCRIPTION -- TO BE CODED 
+Kruskal's Algorithms for Minimum Spanning Tree (MST)
+
 1)Create set E which includes all edges
 2)Soft set E in ascending order of weight
 3)Iterate through set E and check if adding the element creates a cycle
