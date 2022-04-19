@@ -1,4 +1,4 @@
-
+package src;
 import java.util.*;  
 import java.util.Scanner;
 /*
@@ -22,10 +22,15 @@ Time Complexity: O(ElogE), Where E == Edges
 */
 
 class Kruskals {
+    class edge implements Comparable<edge>{
+        int weight;
+        int dest;
+        int source;
 
-    for(int i=0; i<10; i++){
-        
-    } 
+        public int compare(edge edgeToCompare){
+            return this.weight - edgeToCompare.weight;
+        }
+    }
     public static void main(String[] args){
     }
 
