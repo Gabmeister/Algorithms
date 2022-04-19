@@ -1,12 +1,13 @@
-package Algo;
+
 import java.util.*;  
-
+import java.util.Scanner;
 /*
-ALGORITHM DESCRIPTION -- TO BE CODED 
-Kruskal's Algorithms for Minimum Spanning Tree (MST)
-
+Coded by Gabriel Plaza 2022
+ALGORITHM DESCRIPTION 
+Kruskal's Algorithms for Minimum Spanning Tree (MST) 
+Time Complexity: O(ElogE), Where E == Edges
 1)Create set E which includes all edges
-2)Soft set E in ascending order of weight
+2)Sort set E in ascending order of weight
 3)Iterate through set E and check if adding the element creates a cycle
 4)If yes: Discard element
 5)If no: Add to spanning tree via Union() and move on to next element
@@ -14,7 +15,18 @@ Kruskal's Algorithms for Minimum Spanning Tree (MST)
 6)End algorithm once all vertices are reached (E = (Vertices - 1)) as MST is found
 7)Return MST & Elements
 */
+
+/* Misc - 
+    Use an array for edges then use quicksort or heapsort for step 2.
+    two kruskal improvements are union by rank and path compression
+*/
+
 class Kruskals {
 
-    
+    for(int i=0; i<10; i++){
+        
+    } 
+    public static void main(String[] args){
+    }
+
 }
